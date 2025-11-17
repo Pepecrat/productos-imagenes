@@ -1,0 +1,29 @@
+name: Update Manifest
+
+on:
+  push:
+    paths:
+      - 'images/**'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate Manifest
+        run: node scripts/generate-manifest.js
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add manifest.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update manifest"
+          git push
