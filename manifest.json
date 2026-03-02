@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-03-02T15:08:19.000Z",
+  "lastUpdated": "2026-03-02T15:16:17.000Z",
   "cdnBase": "https://cdn.jsdelivr.net/gh/Pepecrat/productos-imagenes@main/images",
   "productos": {
     "261": {
@@ -56,6 +56,15 @@
     },
     "280": {
       "archivo": "280.png"
+    },
+    "744": {
+      "archivo": "744.jpg"
+    },
+    "745": {
+      "archivo": "745.jpg"
+    },
+    "748": {
+      "archivo": "748.jpg"
     },
     "820": {
       "archivo": "820.jpg"
@@ -339,6 +348,12 @@
     "16265": {
       "archivo": "16265.jpg"
     },
+    "16266": {
+      "archivo": "16266.jpg"
+    },
+    "16267": {
+      "archivo": "16267.jpg"
+    },
     "16275": {
       "archivo": "16275.png"
     },
@@ -372,6 +387,9 @@
     "16296": {
       "archivo": "16296.png"
     },
+    "16298": {
+      "archivo": "16298.jpg"
+    },
     "16338": {
       "archivo": "16338.png"
     },
@@ -392,6 +410,9 @@
     },
     "16364": {
       "archivo": "16364.png"
+    },
+    "16428": {
+      "archivo": "16428.jpg"
     },
     "16429": {
       "archivo": "16429.jpg"
