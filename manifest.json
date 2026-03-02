@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-03-02T14:51:45.000Z",
+  "lastUpdated": "2026-03-02T15:08:19.000Z",
   "cdnBase": "https://cdn.jsdelivr.net/gh/Pepecrat/productos-imagenes@main/images",
   "productos": {
     "261": {
@@ -239,6 +239,12 @@
     },
     "11419": {
       "archivo": "11419.jpg"
+    },
+    "11420": {
+      "archivo": "11420.png"
+    },
+    "11421": {
+      "archivo": "11421.jpg"
     },
     "11424": {
       "archivo": "11424.jpg"
